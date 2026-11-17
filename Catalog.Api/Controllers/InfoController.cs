@@ -12,8 +12,8 @@ namespace Catalog.Api.Controllers;
 [Route("api/games/info")]
 public class InfoController : ControllerBase
 {
-    /// <summary>Versao do servico. Altere aqui para demonstrar o deploy continuo.</summary>
-    public const string Versao = "4.0.0";
+    /// <summary>Versao do servico.</summary>
+    public const string Versao = "4.1.0";
 
     private readonly IWebHostEnvironment _env;
 
